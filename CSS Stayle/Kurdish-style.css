@@ -1,0 +1,131 @@
+
+            body {
+                background-color: white;
+                color: black;
+           
+            }
+            h1 {
+           
+            
+   
+                color: blue;
+           
+                font-family: 'Times New Roman', Times, serif;
+            }
+#Shape{
+    border:20px solid  red;
+    border-radius: 0px 0px 500px 500px;
+}
+#Shape1{
+    border:20px solid  white;
+    border-radius: 0px 0px 500px 500px;
+}
+#Shape1-1{
+    border:20px solid  yellow;
+    border-radius: 500px 500px 00px 00px;
+}
+#Shape2{
+    
+    border:20px solid  green;
+   border-radius: 0px 0px 500px 500px;
+}
+#Shape3{
+    
+    border:20px solid  blue;
+   border-radius: 0px 0px 500px 500px;
+}
+#Shape4{
+    border:20px solid  red;
+    border-radius:500px 500px 0px 0px;
+}
+#Shape5{
+    border:20px solid  white;
+    border-radius: 500px 500px 00px 00px;
+}
+#Shape5-1{
+    border:20px solid  yellow;
+    border-radius: 0px 0px 500px 500px;
+}
+#Shape6{
+    
+    border:20px solid  green;
+   border-radius:500px 500px 0px 0px ;
+}
+#Shape7{
+    
+    border:20px solid  blue;
+   border-radius:500px 500px 0px 0px ;
+}
+#Pi_Logo{
+    border: 4px solid purple;
+   width: 50px;
+}
+.Navigation {
+    
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 20px 0 20px 0;
+    overflow: hidden;
+    background-color: #00CCC0;
+    
+  }
+li a {
+    font-size: medium;
+    display: block;
+    color: white;
+    text-align: left;
+    width: 20px;
+    width: 750px;
+    padding: 14px 20px 20px 0;
+    text-decoration: none;
+    display: inline;
+    align-items: left;
+}
+.active{
+    font-size: medium;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 50px 0 20px 0;
+    color: red;
+    font-weight: bold;
+    background-color: #009CC3;
+}
+.Navlist {
+
+       display: inline;
+    
+  }
+  #lastone {
+align-items: right;
+  }
+  li a:hover {
+    font-size: medium;
+     list-style-type: none;
+    margin: 0 0 15% 0;
+    padding: 50px 0 20px 0;
+    color: orange;
+    font-weight: bold;
+    background-color: #009CC3;
+  }
+  .NavPicture{
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0; 
+    width:40px;
+    height:40px;
+  }
+  .ORG {
+    background-color: #00CCC0;
+    align-items: right;
+    width:200px;
+    height:80px;
+  }  ul {
+    text-align: right;
+    align-items: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }

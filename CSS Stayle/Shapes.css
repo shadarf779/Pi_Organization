@@ -1,0 +1,122 @@
+.FooterShape {
+    width: 100%;
+    position: relative;
+    animation-name: A1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.FooterShape > .NewShape {
+    position: relative;
+    animation-name: A2;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+   @keyframes A2{
+    0% {transform: rotateX(0);}
+    25% {transform: rotateX(360deg)}
+    50% {transform: rotateX(0);}
+    75% {transform: rotateX(-360deg);}
+    100% {transform: rotateX(0);}
+ 
+   }
+   .UpperShape {
+    width: 100%;
+    position: relative;
+    animation-name: A1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+   }
+   .DownShape {
+    width: 100%;
+    position: relative;
+    animation-name: A1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+   }
+#Shape{
+    border:20px solid  red;
+    border-radius: 0px 0px 500px 500px;
+    position: relative;
+    animation-name: Shape1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#Shape1{
+    border:20px solid  white;
+    border-radius: 0px 0px 500px 500px;
+    position: relative;
+    animation-name: Shape1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#Shape1-1{
+    border:20px solid  yellow;
+    border-radius: 500px 500px 00px 00px;
+    position: relative;
+    animation-name: Shape1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#Shape2{
+    
+    border:20px solid  green;
+   border-radius: 0px 0px 500px 500px;
+   position: relative;
+   animation-name: Shape1;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+}
+#Shape3{
+    
+    border:20px solid  blue;
+   border-radius: 0px 0px 500px 500px;
+   position: relative;
+   animation-name: Shape1;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+}
+#Shape4{
+    border:20px solid  red;
+    border-radius:500px 500px 0px 0px;
+    position: relative;
+    animation-name: Shape1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#Shape5{
+    border:20px solid  white;
+    border-radius: 500px 500px 00px 00px;
+    position: relative;
+    animation-name: A1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#Shape5-1{
+    border:20px solid  yellow;
+    border-radius: 0px 0px 500px 500px;
+    position: relative;
+    animation-name: Shape1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+#Shape6{
+    border:20px solid  green;
+   border-radius:500px 500px 0px 0px ;
+   position: relative;
+   animation-name: Shape1;
+   animation-duration: 6s;
+   animation-iteration-count: infinite;
+}
+#Shape7{
+    border:20px solid  blue;
+   border-radius:500px 500px 0px 0px ;
+   position: relative;
+    animation-name: Shape1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}   
+  @keyframes shape1 {
+    0%   { left:0px; top:0px;}
+    25%  {  left:360px; top:0px;}
+    50%  {   left:00px; top:0px;} 
+  }

@@ -1,0 +1,319 @@
+body {
+      background-color: white;
+      color: black;
+      }           
+h1 {           
+    text-align: center;               
+    color: blue;           
+    font-family: 'Times New Roman', Times, serif;
+    }
+    #PiSpan1 {
+      position: relative;
+      animation-name: example1;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes example1 {
+      0%   { left:0px; top:0px;}
+      25%  { color: #000CC0; left:360px; top:0px;}
+      30%  { color: #000CC0; }
+      50%  {   left:00px; top:0px;} 
+    }#PiSpan2 {
+      position: relative;
+      animation-name: example2;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes example2 {
+      0%   { left:0px; top:0px;}
+      25%  { color: #003CC6; left:350px; top:0px;}
+      30%  { color: #003CC6; }     
+      50%  {   left:0px; top:0px;} 
+      }#PiSpan3 {
+      position: relative;
+      animation-name: example3;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes example3 {
+      0%   { left:0px; top:0px;}
+      25%  { color: #005CC3; left:320px; top:0px;}
+      30%  { color: #005CC3; }
+      50%  {   left:0px; top:0px;} 
+      }#PiSpan4 {
+      position: relative;
+      animation-name: example4;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes example4 {
+      0%   { left:0px; top:0px;}
+      25%  { color: #CFFFFF; left:310px; top:0px;}
+      30%  { color: #CFFFFF; }
+      50%  {   left:00px; top:0px;} 
+     }#PiSpan5 {
+      position: relative;
+      animation-name: example5;
+      animation-duration: 12s;
+      animation-iteration-count: infinite;
+    }
+    
+    @keyframes example5 {
+      0%   { left:0px; top:0px;}
+      25%  { color: #CFFFFF; left:210px; top:0px;}
+      30%  { color: #CFFFFF; }
+      50%  {   left:00px; top:0px;} 
+     }
+     #PiLogo{
+      position: relative;
+      animation-name: example6;
+      animation-duration: 24s;
+      animation-iteration-count: infinite;
+     }
+     @keyframes example6{
+
+      0% {transform: rotateX(0);}
+      25% {transform: rotateY(360deg)}
+      50% {transform: rotateX(360deg);}
+      75% {transform: rotateY(0deg);}
+      100% {transform: rotateX(0);}
+   
+     }
+     #bgImage{
+      border: solid 2px black;
+      border-width: 100%;
+      padding: 10% 0 10% 25% ;
+      background-image: url(/photo/Main.jpg);
+      background-repeat: no-repeat;
+      background-size:100% 100%; 
+
+     } 
+     
+  
+  legend{
+    background: #EEE;
+    font-size: larger;
+  }
+
+#felxbox {
+  background:#CFFFFF;
+}
+.felxbox {
+  display: flex;
+  align-items: stretch;
+}
+
+.felxbox > #NavDiv {
+  margin: 10px;
+  font-size: 30px;
+}
+#Pi_Logo{
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 100px #03e9f4;
+    border: 4px solid purple;
+   width: 50px;
+} 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.HeaderPicture {
+  margin-top: 140px; 
+}
+.Navigation {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0px 0 0px 0;
+    overflow: hidden;
+    background-color: #00CCC0;
+  }
+li a {
+    font-size:medium;
+    display: block;
+    color: white;
+    text-align: left;
+    width: 20px;
+    width: 750px;
+    padding: 14px 20px 20px 0;
+    text-decoration: none;
+    display: inline;
+    align-items: left;
+}
+.active{
+    font-size: medium;
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 50px 0 20px 0;
+    color: red;
+    font-weight: bold;
+    background-color: #009CC3;
+}
+#PiLogo {
+  width: 120px;
+  height: 40px;
+}
+#PiSpan {
+  color: black;
+  width:40px;
+  font-size:40px;
+  font-family: monospace;
+}
+.Navlist {
+
+       display: inline;
+    
+  }
+  #lastone {
+align-items: left;
+  }
+  .NavList a:hover {
+    box-shadow: 0 0 5px #009CC3,
+    0 0 25px #009CC3,
+    0 0 50px #009CC3,
+    0 0 100px #009CC3;
+    font-size: medium;
+     list-style-type: none;
+    margin: 0 0 15% 0;
+    padding: 50px 0 20px 0;
+    color: orange;
+    font-weight: bold;
+    background-color: #009CC3;
+  }
+  #Social a:hover {
+    background-color:#009CC3 ;
+    border: 2px solid #009CC3;
+    border-radius: 100%;
+    margin: 0 0 15% 0;
+    padding: 30px 10px 10px 10px;
+    box-shadow: 0 0 5px #009CC3,
+    0 0 25px #009CC3,
+    0 0 50px #009CC3,
+    0 0 100px #009CC3;   
+  }
+  #Course-Text {
+    text-align: center;
+  }
+  #PiLogo a:hover{    
+    width:150px;
+    margin: 0 0 25px 0;
+    padding: 0 140px  25px 0;    
+    font-size: larger;
+    font-weight: bold;
+   
+  }
+  #CourseFormant {
+    width: 75%;
+    align-items: center;
+  }
+  #CourseFormant:hover{
+    width: 85%;
+    align-items: center;
+  }
+  
+  #LogoNav{
+     align-items: right;
+     text-align: right;
+  }
+  .NavPicture{
+    padding: 0 0 0 0 ;
+    margin: 0 0 0 0; 
+    width:35px;
+    height:35px;
+  }
+  .ORG {
+    background-color: #00CCC0;
+    align-items: left;
+    width:200px;
+    height:80px;
+  }  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .btn{
+   background: #00CCC0;
+  }
+  #Menupicture {
+    width: 10px;
+    height: 10px;
+  }
+  
+  
+  li {
+    
+    display: inline;
+  }
+#Main {
+    width: 100%;
+    height: 250px;
+     }
+     @media only screen and (max-width: 800px){
+      li {
+        border:solid;
+        width:10px;
+        border-width:0px;
+        border-color:blue;
+        display: inline;
+        display: block;
+        width:500px;
+      } 
+      ul {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    float{
+      font-weight: bold;
+      font-size: large;
+      font-size:50px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      float: left;
+      line-height: 40%;
+    }
+      li a:hover {
+
+        border-style: solid ;       
+        background-color: #009CC3;
+        width:150px;
+        border-width: 0px;
+        margin: 0 0 0 0;
+        padding: 25px 140px  0 0; 
+        box-shadow: 0 0 5px #009CC3,
+        0 0 25px #009CC3,
+        0 0 50px #009CC3,
+        0 0 100px #009CC3;       
+      }
+      .active {
+        border-style: solid ;
+        border-width: 0px;
+        background-color: #009CC3;;
+        width:150px;
+        margin: 0 0 0 0;
+        padding: 25px 140px 0px 0; 
+      }
+      .Navigation {
+        width: 200px;
+      }
+     }
+    
+
+     .BGColor {
+      background-color: #009CC3;;
+     }
+     #BgColor {
+      background-color:#F0F0F0 ;
+     }
+    
+  #header1 {
+    width: 200px;
+    
+    border-style:solid;
+    border-color: red;
+    border-width: 2px;
+    border-top: dotted;
+    border-top:white;
+  }
